@@ -1,0 +1,42 @@
+.main-header {
+    background-color: #1c1c1c;
+    height: auto;
+    padding: 0 20px;
+}
+
+.main-header .main-header-content {
+    display: flex;
+    justify-content: space-between;
+    min-height: 90px;
+    align-items: center;
+}
+
+.main-header .main-header-content img {
+    height: 55px;
+}
+
+.main-header .main-header-content .main-header-logo {
+    width: 300px;
+}
+
+.main-header .main-header-content .tmdb-logo {
+    width: 122px;
+}
+
+@media screen and (max-width: 767px) {
+    .main-header .main-header-content {
+        min-height: 70px;
+    }
+
+    .main-header .main-header-content img {
+        height: 30px;
+    }
+
+    .main-header .main-header-content .main-header-logo {
+        width: 150px;
+    }
+
+    .main-header .main-header-content .tmdb-logo {
+        width: 75px;
+    }
+}
